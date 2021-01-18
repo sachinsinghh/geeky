@@ -8,7 +8,7 @@
     </head>
     <body class="text-gray-600 font-body">
 
-      <div class="grid md:grid-cols-6">
+      <div class="grid md:grid-cols-8">
         <div class="md:col-span-1 md:flex md:justify-end">
           <nav class="text-right">
             <div class="flex justify-between items-center">
@@ -42,7 +42,7 @@
           </nav>
         </div>
 
-        <main class="px-16 py-6 md:col-span-5 bg-gray-100">
+        <main class="px-16 py-6 md:col-span-7 bg-gray-100">
           <div class="flex justify-center md:justify-end">
             <a href="#" class="btn text-primary border-primary md:border-2 hover:bg-primary hover:text-white transition ease-out duration-500">Log in</a>
             <a href="#" class="btn text-primary ml-2 border-primary md:border-2 hover:bg-primary hover:text-white transition ease-out duration-500">Sign up</a>
@@ -59,7 +59,7 @@
             <div class="mt-8 grid lg:grid-cols-3 gap-10">
               <!-- cards go here -->
               <div class="card hover:shadow-lg">
-                <iframe width="200" height="200" src="https://www.youtube.com/embed/tgbNymZ7vqY">
+                <iframe  class="h-32 sm:h-48 w-full object-cover" src="https://www.youtube.com/embed/tgbNymZ7vqY">
                 </iframe>
                 <div class="m-4">
                   <span class="font-bold">5 Bean Chili Stew</span>
@@ -71,7 +71,7 @@
                 </div> --}}
               </div>
               <div class="card hover:shadow-lg">
-                <iframe width="200" height="200" src="https://www.youtube.com/embed/tgbNymZ7vqY">
+                <iframe class="h-32 sm:h-48 w-full object-cover" src="https://www.youtube.com/embed/tgbNymZ7vqY">
                 </iframe>
                 <div class="m-4">
                   <span class="font-bold">Veg Noodles</span>
@@ -80,7 +80,7 @@
 
               </div>
               <div class="card hover:shadow-lg">
-                <iframe width="200" height="200" src="https://www.youtube.com/embed/tgbNymZ7vqY">
+                <iframe  class="h-32 sm:h-48 w-full object-cover" src="https://www.youtube.com/embed/tgbNymZ7vqY">
                 </iframe>
                 <div class="m-4">
                   <span class="font-bold">Tofu Curry</span>
@@ -98,7 +98,7 @@
             <div class="mt-8 grid lg:grid-cols-3 gap-10">
               <!-- cards go here -->
               <div class="card hover:shadow-lg">
-                <iframe width="200" height="200" src="https://www.youtube.com/embed/tgbNymZ7vqY">
+                <iframe  class="h-32 sm:h-48 w-full object-cover" src="https://www.youtube.com/embed/tgbNymZ7vqY">
                 </iframe>
 
                 <div class="m-4">
@@ -111,7 +111,7 @@
                 </div> --}}
               </div>
               <div class="card hover:shadow-lg">
-                <iframe width="200" height="200" src="https://www.youtube.com/embed/tgbNymZ7vqY">
+                <iframe  class="h-32 sm:h-48 w-full object-cover" src="https://www.youtube.com/embed/tgbNymZ7vqY">
                 </iframe>
                 <div class="m-4">
                   <span class="font-bold">Veg Noodles</span>
@@ -120,7 +120,7 @@
 
               </div>
               <div class="card hover:shadow-lg">
-                <iframe width="200" height="200" src="https://www.youtube.com/embed/tgbNymZ7vqY">
+                <iframe class="h-32 sm:h-48 w-full object-cover" src="https://www.youtube.com/embed/tgbNymZ7vqY">
                 </iframe>
                 <div class="m-4">
                   <span class="font-bold">Tofu Curry</span>
