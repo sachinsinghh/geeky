@@ -3,7 +3,7 @@
     <head>
       <meta charset="UTF-8">
       <meta name="viewport" content="width=device-width, initial-scale=1.0">
-      <title>Document</title>
+      <title>Geeky</title>
       <link rel="stylesheet" href="{{ asset('styles.css') }}">
     </head>
     <body class="text-gray-600 font-body">
@@ -13,7 +13,7 @@
           <nav class="text-right">
             <div class="flex justify-between items-center">
               <h1 class="font-bold uppercase p-4 border-b border-gray-100">
-                <a href="/" class="hover:text-gray-700 tracking-widest">Food Ninja</a>
+                <a href="/" class="hover:text-gray-700 tracking-widest">Geeky</a>
               </h1>
               <div class="px-4 cursor-pointer md:hidden" id="burger">
                 <svg class="w-6 h-6" fill="none" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" stroke="currentColor" viewBox="0 0 24 24"><path d="M4 6h16M4 12h16M4 18h16"></path></svg>
@@ -49,21 +49,21 @@
           </div>
 
           <header class="mt-4">
-            <h2 class="text-gray-700 text-6xl font-semibold leading-none tracking-wider">Recipes</h2>
+            <h2 class="text-gray-700 text-6xl font-semibold leading-none tracking-wider">Geeky</h2>
             <h3 class="text-2xl font-semibold tracking-wider">For Ninjas</h3>
           </header>
 
           <div>
-            <h4 class="font-bold pb-2 mt-12 border-b border-gray-200">Latest Recipes</h4>
+            <h4 class="font-bold pb-2 mt-12 border-b border-gray-200">Laravel</h4>
 
             <div class="mt-8 grid lg:grid-cols-3 gap-10">
               <!-- cards go here -->
               <div class="card hover:shadow-lg">
-                <iframe  class="h-32 sm:h-48 w-full object-cover" src="https://www.youtube.com/embed/tgbNymZ7vqY">
+                <iframe  class="h-32 sm:h-48 w-full object-cover" src="https://www.youtube.com/embed/yXN6fg4SPRo">
                 </iframe>
                 <div class="m-4">
-                  <span class="font-bold">5 Bean Chili Stew</span>
-                  <span class="block text-gray-500 text-sm">Recipe by Mario</span>
+                  <span class="font-bold">Import excel's data</span>
+                  <span class="block text-gray-500 text-sm">Laravel</span>
                 </div>
                 {{-- <div class="badge">
                   <svg class="inline-block w-5" fill="none" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" stroke="currentColor" viewBox="0 0 24 24"><path d="M12 8v4l3 3m6-3a9 9 0 11-18 0 9 9 0 0118 0z"></path></svg>
@@ -71,20 +71,20 @@
                 </div> --}}
               </div>
               <div class="card hover:shadow-lg">
-                <iframe class="h-32 sm:h-48 w-full object-cover" src="https://www.youtube.com/embed/tgbNymZ7vqY">
+                <iframe class="h-32 sm:h-48 w-full object-cover" src="https://www.youtube.com/embed/gtPDVL6QCJg">
                 </iframe>
                 <div class="m-4">
-                  <span class="font-bold">Veg Noodles</span>
-                  <span class="block text-gray-500 text-sm">Recipe by Mario</span>
+                  <span class="font-bold">laradock setup</span>
+                  <span class="block text-gray-500 text-sm">Laravel</span>
                 </div>
 
               </div>
               <div class="card hover:shadow-lg">
-                <iframe  class="h-32 sm:h-48 w-full object-cover" src="https://www.youtube.com/embed/tgbNymZ7vqY">
+                <iframe  class="h-32 sm:h-48 w-full object-cover" src="https://www.youtube.com/embed/qbRPMWh08Mc">
                 </iframe>
                 <div class="m-4">
-                  <span class="font-bold">Tofu Curry</span>
-                  <span class="block text-gray-500 text-sm">Recipe by Mario</span>
+                  <span class="font-bold">Laravel setup on Ubuntu</span>
+                  <span class="block text-gray-500 text-sm">Laravel</span>
                 </div>
                 {{-- <div class="badge">
                   <svg class="inline-block w-5" fill="none" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" stroke="currentColor" viewBox="0 0 24 24"><path d="M12 8v4l3 3m6-3a9 9 0 11-18 0 9 9 0 0118 0z"></path></svg>
@@ -93,17 +93,17 @@
               </div>
             </div>
 
-            <h4 class="font-bold pb-2 mt-12 border-b border-gray-200">Most Popular</h4>
+            <h4 class="font-bold pb-2 mt-12 border-b border-gray-200">Web Hacking</h4>
 
             <div class="mt-8 grid lg:grid-cols-3 gap-10">
               <!-- cards go here -->
               <div class="card hover:shadow-lg">
-                <iframe  class="h-32 sm:h-48 w-full object-cover" src="https://www.youtube.com/embed/tgbNymZ7vqY">
+                <iframe  class="h-32 sm:h-48 w-full object-cover" src="https://www.youtube.com/embed/toP0zrZ6Fe4">
                 </iframe>
 
                 <div class="m-4">
-                  <span class="font-bold truncate block">5 Bean Chili Stew with Feta Cheese</span>
-                  <span class="block text-gray-500 text-sm">Recipe by Mario</span>
+                  <span class="font-bold truncate block">Hack Website in just 5 Minutes SQLMAP</span>
+                  <span class="block text-gray-500 text-sm">Web Security</span>
                 </div>
                 {{-- <div class="badge">
                   <svg class="inline-block w-5" fill="none" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" stroke="currentColor" viewBox="0 0 24 24"><path d="M12 8v4l3 3m6-3a9 9 0 11-18 0 9 9 0 0118 0z"></path></svg>
@@ -111,20 +111,22 @@
                 </div> --}}
               </div>
               <div class="card hover:shadow-lg">
-                <iframe  class="h-32 sm:h-48 w-full object-cover" src="https://www.youtube.com/embed/tgbNymZ7vqY">
+                <iframe  class="h-32 sm:h-48 w-full object-cover" src="https://www.youtube.com/embed/toP0zrZ6Fe4">
                 </iframe>
+
                 <div class="m-4">
-                  <span class="font-bold">Veg Noodles</span>
-                  <span class="block text-gray-500 text-sm">Recipe by Mario</span>
+                  <span class="font-bold truncate block">Hack Website in just 5 Minutes SQLMAP</span>
+                  <span class="block text-gray-500 text-sm">Web Security</span>
                 </div>
 
               </div>
               <div class="card hover:shadow-lg">
-                <iframe class="h-32 sm:h-48 w-full object-cover" src="https://www.youtube.com/embed/tgbNymZ7vqY">
+                <iframe  class="h-32 sm:h-48 w-full object-cover" src="https://www.youtube.com/embed/toP0zrZ6Fe4">
                 </iframe>
+
                 <div class="m-4">
-                  <span class="font-bold">Tofu Curry</span>
-                  <span class="block text-gray-500 text-sm">Recipe by Mario</span>
+                  <span class="font-bold truncate block">Hack Website in just 5 Minutes SQLMAP</span>
+                  <span class="block text-gray-500 text-sm">Web Security</span>
                 </div>
 
               </div>
